@@ -7,8 +7,8 @@ but to one of the many teamspeak servers your friends are using.
 1. Create a file called auth.json containing the token and login for your both.
 ```
 {
-    "token": "NjAyMjMyMjUwNzIwOTc2OTA2.XTOBbQ.teKEaq5ouZv15KMK9h8wl_Dxex4",
-    "login": "602232250720976906"
+    "token": "",
+    "login": ""
 }
 ```
 
