@@ -14,3 +14,4 @@ but to one of the many teamspeak servers your friends are using.
 
 ## External libraries
 - https://www.npmjs.com/package/telnet-client
+- https://discord.js.org
