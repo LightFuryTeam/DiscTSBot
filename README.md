@@ -21,3 +21,4 @@ Not yet implemented
 ## External libraries
 - https://www.npmjs.com/package/telnet-client
 - https://discord.js.org
+- https://www.npmjs.com/package/mochi
