@@ -4,7 +4,7 @@
   "description": "",
   "main": "bot.js",
   "scripts": {
-    "test": "mocha || True"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/Ghosi-dev-team/DiscTSBot#readme",
   "dependencies": {
-    "chai": "^4.2.0",
     "discord.js": "^11.5.1",
-    "mocha": "^6.2.0",
     "telnet-client": "^1.0.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
   }
 }
