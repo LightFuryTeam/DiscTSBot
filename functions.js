@@ -1,11 +1,14 @@
 var Telnet = require('telnet-client')
 var fullResponse
+//Regex101.com voor uitleg
+var regexstring = "cid=(\d*)(?:.*?)channel_name=([\w!]*)(?:[|]{0,1})"
+
 module.exports = { 
     getData : async function() {
       var connection = new Telnet()
       
       var params = {
-        host: 'teamsepak.tk',
+        host: 'theteamsepak.tk',
         port: 10011,
         timeout: 1500
       }
@@ -22,10 +25,11 @@ module.exports = {
       
       connection.connect(params).catch(function(error) {
         console.log('connection closed');
-        MakeArray();
+        console.log(fullResponse);
+        //MakeArray();
       });
 
-      function MakeArray(){
+      /*function MakeArray(){
         var ResponseSplit = fullResponse.split("|");
         for (var element = 0; element < ResponseSplit.length; element++) {
           var innerArrayLength = "" ;
@@ -35,7 +39,7 @@ module.exports = {
 
           })
         };   
-      }
+      }*/
     },
 
     clearMessages :  async function(amount, message) {
